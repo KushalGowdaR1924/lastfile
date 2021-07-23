@@ -1,0 +1,146 @@
+  * {    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }  
+
+ :root{ 
+    size: 21cm 29.7cm;
+    margin: 30mm 45mm 30mm 45mm;
+ } 
+  body { 
+   
+    padding: 2rem 3rem;
+    background: linear-gradient(#727272,salmon 50%);
+    border-collapse: inherit;
+} 
+
+ html{
+    size: 7in 9.25in;
+    margin: 27mm 16mm 27mm 16mm;
+    font-family: "Josefin Sans";
+    background-color:white;
+    padding: 5rem 7rem; 
+ }
+
+h1{
+    color: white;
+    background-color: #4db6a6;
+    padding: 1.5rem ;
+    font-size: 40px;
+}
+
+h2{
+    color:#4db6a6;
+    border-bottom: 1px solid;
+    margin-bottom: 2rem;
+
+}
+
+p{
+    line-height: 1;
+}
+section + section
+{
+    margin-top: 2rem;
+}
+a{
+    text-decoration: none; 
+    color: inherit;
+}
+.education li{
+    color:#4db6a6;
+    font-size: 20px;
+}
+
+.education h5{
+text-align: right;
+color: #4db6a6;
+}
+
+.education p{
+    font-size: 15px;
+}
+    
+.project li{
+    color: #4db6a6;
+    font-size: 20px;
+    line-height: 1.5rem;
+    margin-top: 1.5rem;
+}
+.courses li{
+    font-size: 20px;
+    color: #4db6a6;
+}
+courses p{
+    font-size: 15px;
+}
+
+ li {
+ line-height: 1.5rem;
+}
+
+.languages p{
+    font-size:13px;
+    color:#4db6a6;
+}
+
+ul{
+list-style: none;
+}
+
+.resume{
+    display: grid;
+    grid-template-columns:25% 1fr;
+    grid-gap: 6rem;
+    background-color: white;
+    padding: 2rem;
+    
+}
+
+.project p{
+    font-size: 15px;
+}
+.project li{
+    font-size: 20px;
+
+}
+.internship li{
+    font-size: 20px;
+    color: #4db6a6;
+}
+
+.container{
+    display:grid;
+    grid-template-columns: 2fr 2fr;
+
+   
+}
+
+.container button{
+    color: white;
+    background-color:#4db6a6;
+    margin-top: 1px;
+    border-radius: 5px;
+    width: 100px;
+    height: 30px;
+    border-color: #4db6a6;
+    text-align:center;
+    margin-bottom: 1.5rem;
+    margin-inline: 1rem;
+
+}
+.contact li{
+    color: #4db6a6;
+    font-size: 20px;
+    
+}
+.education li + p{
+    line-height: 1.5rem;
+
+}
+
+
+
+
+
